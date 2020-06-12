@@ -1,0 +1,9 @@
+<job id="testJob" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+    version="1.0">
+    <step id="step1">
+        <properties>
+            <property name="message" value="TestJob message" />
+        </properties>
+        <batchlet ref="it.pcc.jberetwildfly.rest.batch.task.TestJob" />
+    </step>
+</job>
